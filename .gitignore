@@ -1,0 +1,14 @@
+# 忽略 SSH 密钥及任何隐藏的 ssh 文件夹
+.ssh/
+*id_rsa*
+*id_ed25519*
+
+# 忽略 Python 缓存和临时文件
+__pycache__/
+*.pyc
+*.swp
+
+# 忽略不需要上传的测试文件（如果你不想传这些）
+.bash_history
+decoded_final.txt
+test1.py
